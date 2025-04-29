@@ -1,0 +1,16 @@
+.reg{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.bt{
+    background-color:brown;
+    color: white;
+    padding: 12px;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+
+}

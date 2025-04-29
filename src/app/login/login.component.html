@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Sign In</h1>
+<div mat-dialog-content>
+  <form [formGroup]="login" (ngSubmit)="onSubmit()" class="reg">
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" type="email" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput formControlName="password" type="password" required>
+    </mat-form-field>
+
+    <button mat-button type="button">Forgot Password?</button>
+
+    <div mat-dialog-actions>
+      <button mat-button type="submit" (click)="onSubmit()" class="bt">Login</button>
+      <button mat-button mat-dialog-close>Cancel</button>
+    </div>
+  </form>
+</div>
+

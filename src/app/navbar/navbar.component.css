@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  mat-toolbar{
+    background-color: brown;
+  }
+  
+  .title{
+    color: white;
+  }
+  mat-icon{
+    color: white;
+  }
+  .toast-top-right {
+    top: 50px;
+    right: 50px;
+  }
+  
+  .toast-success {
+    background-color: #51A351;
+  }
+  

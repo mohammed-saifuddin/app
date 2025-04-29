@@ -1,0 +1,17 @@
+<mat-toolbar>
+ 
+    <mat-icon [matMenuTriggerFor]="menu" >menu</mat-icon>
+   
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Home</button>
+  <button mat-menu-item>Contact us</button>
+</mat-menu>
+  
+    <span class="title">Car pooling</span>
+    <span class="example-spacer"></span>
+    
+  <div>
+    <button mat-flat-button matTooltip="Login" mat-dialog-close   routerLink="/welcome" (click)="showSuccess()">Logout</button>
+  </div>
+  </mat-toolbar>
+  
